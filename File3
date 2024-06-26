@@ -1,0 +1,9 @@
+from datetime import datetime
+
+def greet_user():
+    current_hour = datetime.now().hour
+
+
+    print(current_hour)
+
+greet_user()
