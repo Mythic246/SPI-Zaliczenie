@@ -1,2 +1,5 @@
-def Function1(name)
-  return f"Witaj {name}"
+def Function1(name):
+   name = name.strip()
+   name = name.capitalize()   
+   return f"Witaj {name}"
+
