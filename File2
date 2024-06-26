@@ -1,4 +1,9 @@
 def Function1(name):
+   if not isinstance(name, str):
+      raise ValueError("The name must be a string")
+   if not name:
+      raise ValueError("The name cannot be empty")
+
    name = name.strip()
    name = name.capitalize()   
    return f"Witaj {name}"
