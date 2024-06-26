@@ -2,8 +2,8 @@ import random
 import string
 
 def generate_password(length=8):
-    characters = string.asci_letters + string.digits + string.Punctuation
-    password = ''.join(random.hoice(characters) for i in range(length))
+    characters = string.ascii_letters + string.digits + string.punctuation
+    password = ''.join(random.choice(characters) for i in range(length))
     return password
 
-print("Your random password is:", gnerate_password(12))
+print("Your random password is:", generate_password(12))
