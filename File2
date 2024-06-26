@@ -1,0 +1,2 @@
+def Function1(name)
+  return f"Witaj {name}"
